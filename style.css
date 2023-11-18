@@ -516,7 +516,7 @@ footer .follow i:hover, footer a:hover{
 
 /* Media query */
 
-@media (min-width:600px){
+@media (max-width:1024px){
     #navbar {
         display: flex;
         flex-direction: column;
