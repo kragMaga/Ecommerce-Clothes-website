@@ -617,7 +617,7 @@ footer .follow i:hover, footer a:hover{
     }
 }
 
-@media (max-width: 320px){
+@media (max-width: 500px){
 
     #header {
         padding: 10px 30px;
