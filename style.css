@@ -454,7 +454,7 @@ body{
 /* Footer */
 footer{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -515,8 +515,6 @@ footer .follow i:hover, footer a:hover{
 
 
 /* Media query */
-
-
 
 
 @media screen and (max-width:600px){
@@ -609,6 +607,7 @@ footer .follow i:hover, footer a:hover{
 
 #sm-banner .banner-box {
     height: 40vh;
+    min-width: 200px;
 }
 
 #sm-banner .banner-box2 {
